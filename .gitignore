@@ -1,4 +1,21 @@
+# Environments
 .venv/
+venv/
+
+# Python cache
 __pycache__/
+*.pyc
+
+# Jupyter
 .ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+.vscode/
+
+# Data (keep raw data out unless it's tiny + allowed)
+data/*.csv
+data/*.parquet
+
+# UV
 uv.lock
